@@ -1,0 +1,19 @@
+{
+  "name": "eureca.io-examples",
+  "description": "Example codes for eureca.io",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alaa-eddine KADDOURI"
+  },
+  "homepage": "http://eureca.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ezelia/eureca.io-examples"
+  },
+  "dependencies": {
+    "eureca.io": ">= 0.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.20"
+  }
+ }
