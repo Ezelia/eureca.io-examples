@@ -1,4 +1,4 @@
-﻿var Eureca = require('../../');
+﻿var Eureca = require('eureca.io');
 
 var client = new Eureca.Client({ uri: 'http://localhost:8000/', transport: 'webrtc', reliable: false, maxRetransmits: 3, ordered: true });
 

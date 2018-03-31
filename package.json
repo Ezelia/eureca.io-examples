@@ -11,9 +11,14 @@
     "url": "https://github.com/Ezelia/eureca.io-examples"
   },
   "dependencies": {
-    "eureca.io": ">= 0.6.0"
+    "engine.io": "^3.2.0",
+    "engine.io-client": "^3.2.1",
+    "eureca.io": "^0.8.0",
+    "sockjs": "^0.3.19",
+    "sockjs-client": "^1.1.4",
+    "wrtc": "^0.1.0"
   },
   "engines": {
-    "node": ">=0.10.20"
+    "node": ">=4.0.0"
   }
- }
+}

@@ -3,7 +3,7 @@ var fs = require('fs');
 var server = http.createServer();
 
 // == Eureca.io code goes here
-var Eureca = require('../../');
+var Eureca = require('eureca.io');
 
 //Create eureca server
 //and allow it to call clientEcho remote function 

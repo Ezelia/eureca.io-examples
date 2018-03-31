@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var server = http.createServer();
 
-var Eureca = require('../../');
+var Eureca = require('eureca.io');
 
 var eurecaServer = new Eureca.Server({transport:'webrtc', allow:['hello', 'sub']});
 

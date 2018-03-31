@@ -5,7 +5,7 @@ var server = http.createServer();
 
 
 
-var Eureca = require('../../');
+var Eureca = require('eureca.io');
 
 var eurecaServer = new Eureca.Server({allow:['asyncClientHello']});
 
