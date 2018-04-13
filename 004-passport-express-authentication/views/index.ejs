@@ -1,27 +1,17 @@
+
 <% if (!user) { %>
 	<h2>Welcome! Please log in.</h2>
 	<a href="/login">[ Click to log in ]</a>
 <% } else { %>
 	<h2>Hello, <%= user.username %>.</h2>
 	<input type="hidden" id="eiohash" value="<%= eio.hash %>" />
-	<script src="/eureca.js"></script>
-        <script>
+        <hr />
 
-			var authToken = document.getElementById('eiohash').value;
-            var client = new Eureca.Client({
-				transport: 'engine.io'
-			});
-			
-			
-            client.ready(function (server) {
-				console.log('can call hello');
 
-				//if authentication fails, will not call hello();
-				server.hello();
-            });
-			
-			
-			
-			client.authenticate(authToken);
-        </script>
+        <button id="clientBtn" class="hidden">Send Hello to Server</button>
+        <span id="clientInfo" class="hidden">Called server hello(), waiting for answer...</span>
+        
+        <p>When you click this button, the client will call a hello() function in the server side, then the server will wait 3 seconds then answer back by calling the client hello() function which will show an alert popup.</p>
+
+        <script src="scripts/client.js"></script>
 <% } %>

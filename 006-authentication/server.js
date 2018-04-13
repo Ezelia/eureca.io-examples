@@ -8,6 +8,8 @@ var Eureca = require('eureca.io');
 var eurecaServer = new Eureca.Server({
     authenticate: function (authToken, next) {
         //this.socket gives access to client socket
+        var authContext = this;
+        //console.log('authContext = ', authContext);
         console.log('Called Auth with token=', authToken);
 
         if (authToken == 'OK') next();

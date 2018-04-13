@@ -1,0 +1,72 @@
+body {
+    font-family: verdana;
+}
+#container {
+    margin: auto;
+    background: #eee;
+    border: 3px solid #aaa;
+    border-radius: 5px;
+}
+nav {
+    background: #aaa;
+    border-bottom: 2px solid #555;
+    padding: 5px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #33b;
+    width: 80px;
+    background: #ccc;
+    padding: 5px;
+    text-align: center;
+    margin-right: 3px;
+}
+nav a:hover {
+    color:#b33;
+    background:#fff;
+}
+
+#bodyContent {
+    padding: 30px;
+}
+
+form {
+    padding: 20px;
+    background: #ddd;
+}
+
+form label {
+    display:inline-block;
+    width:150px;
+    margin-bottom: 30px;
+}
+
+#submitBtn {
+    margin-left: 200px;
+    height: 40px;
+    width: 120px;
+    font: 700 16px arial;
+    color: #777;
+}
+
+.hidden {
+    display:none;
+}
+button {
+    
+    
+    padding:5px;
+    font: 700 16px arial;
+    color: #777;
+}
+
+#clientInfo {
+    background:#c9ffd5;
+    padding:5px;
+    font: 700 16px arial;
+    color: #777;   
+}

@@ -1,5 +1,5 @@
 {
-  "name": "eureca.io-examples",
+  "name": "eureca.io-examples-node-static",
   "description": "Example codes for eureca.io",
   "version": "1.0.0",
   "author": {
@@ -12,6 +12,9 @@
     "url": "https://github.com/Ezelia/eureca.io-examples"
   },
   "dependencies": {
+    "engine.io": "^3.2.0",
+    "eureca.io": "^0.8.2",
+    "node-static": "^0.7.10"
   },
   "engines": {
     "node": ">=4.0.0"
